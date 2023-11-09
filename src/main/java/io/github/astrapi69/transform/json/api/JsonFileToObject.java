@@ -24,12 +24,13 @@
  */
 package io.github.astrapi69.transform.json.api;
 
-import lombok.NonNull;
-
 import java.io.File;
 
+import lombok.NonNull;
+
 /**
- * If a class implements the interface {@link JsonFileToObject} can transform a json file to an object
+ * If a class implements the interface {@link JsonFileToObject} can transform a json file to an
+ * object
  */
 public interface JsonFileToObject
 {

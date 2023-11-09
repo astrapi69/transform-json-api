@@ -27,7 +27,8 @@ package io.github.astrapi69.transform.json.api;
 import lombok.NonNull;
 
 /**
- * The interface {@link ObjectToJson} provides a single method for convert an object to a json string
+ * The interface {@link ObjectToJson} provides a single method for convert an object to a json
+ * string
  */
 public interface ObjectToJson
 {
