@@ -26,8 +26,6 @@ package io.github.astrapi69.transform.json.api;
 
 import java.io.File;
 
-import lombok.NonNull;
-
 /**
  * The interface {@link ObjectToJsonFile} provides a single method for convert an object to a json
  * string
@@ -44,5 +42,5 @@ public interface ObjectToJsonFile
 	 * @param file
 	 *            the file to copy the object as json
 	 */
-	<T> void toJson(final @NonNull T object, final @NonNull File file);
+	<T> void toJson(final T object, final File file);
 }

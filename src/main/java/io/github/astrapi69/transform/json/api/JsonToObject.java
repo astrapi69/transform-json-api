@@ -24,7 +24,6 @@
  */
 package io.github.astrapi69.transform.json.api;
 
-import lombok.NonNull;
 
 /**
  * If a class implements the interface {@link JsonToObject} can transform a json string to an object
@@ -42,5 +41,5 @@ public interface JsonToObject
 	 *            the class from the object that will be returned
 	 * @return the object
 	 */
-	<T> T toObject(final @NonNull String jsonString, final @NonNull Class<T> clazz);
+	<T> T toObject(final String jsonString, final Class<T> clazz);
 }

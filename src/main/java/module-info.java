@@ -20,7 +20,5 @@
  */
 module transform.json.api.main
 {
-	requires lombok;
-
 	exports io.github.astrapi69.transform.json.api;
 }

@@ -24,8 +24,6 @@
  */
 package io.github.astrapi69.transform.json.api;
 
-import lombok.NonNull;
-
 /**
  * If a class implements the interface {@link JsonToGenericObject} can transform a json file to an
  * object without giving explicitly the class type of the return type
@@ -41,5 +39,5 @@ public interface JsonToGenericObject
 	 *            the json String
 	 * @return the object
 	 */
-	<T> T toObject(final @NonNull String jsonString);
+	<T> T toObject(final String jsonString);
 }

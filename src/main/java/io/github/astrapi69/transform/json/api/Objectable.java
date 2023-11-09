@@ -24,8 +24,6 @@
  */
 package io.github.astrapi69.transform.json.api;
 
-import lombok.NonNull;
-
 /**
  * If a class implements the interface {@link Objectable} have to implement the method for
  * transformation to the generic object type
@@ -41,5 +39,5 @@ public interface Objectable
 	 *            the json String
 	 * @return the object
 	 */
-	<T> T toObject(final @NonNull String json);
+	<T> T toObject(final String json);
 }
