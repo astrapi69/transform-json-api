@@ -13,6 +13,7 @@ junit-platform-launcher-version = "1.11.0-M2"
 meanbean-version = "3.0.0-M9"
 silly-io-version = "3"
 throwable-version = "2.3"
+transform-api-version = "1.1"
 
 [libraries]
 commons-text = { module = "org.apache.commons:commons-text", version.ref = "commons-text-version" }
@@ -23,6 +24,7 @@ junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher
 meanbean = { module = "com.github.meanbeanlib:meanbean", version.ref = "meanbean-version" }
 silly-io = { module = "io.github.astrapi69:silly-io", version.ref = "silly-io-version" }
 throwable = { module = "io.github.astrapi69:throwable", version.ref = "throwable-version" }
+transform-api = { module = "io.github.astrapi69:transform-api", version.ref = "transform-api-version" }
 
 [bundles]
 unit-testing = [

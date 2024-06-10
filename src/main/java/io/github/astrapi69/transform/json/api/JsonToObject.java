@@ -25,21 +25,24 @@
 package io.github.astrapi69.transform.json.api;
 
 
+import io.github.astrapi69.transform.api.ObjectableFromClass;
+
 /**
  * If a class implements the interface {@link JsonToObject} can transform a json string to an object
+ *
+ * @param <T>
+ *            the generic type of the argument object class type
  */
-public interface JsonToObject
+public interface JsonToObject<T> extends ObjectableFromClass<T, String>
 {
 	/**
 	 * Transforms the given json {@link String} object to an object of the given class type
 	 *
-	 * @param <T>
-	 *            the generic type of the argument object class type
 	 * @param jsonString
 	 *            the json as {@link String} object
 	 * @param clazz
 	 *            the class from the object that will be returned
 	 * @return the object
 	 */
-	<T> T toObject(final String jsonString, final Class<T> clazz);
+	T toObject(final String jsonString, final Class<T> clazz);
 }

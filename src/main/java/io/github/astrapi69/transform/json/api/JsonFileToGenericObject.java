@@ -26,21 +26,12 @@ package io.github.astrapi69.transform.json.api;
 
 import java.io.File;
 
+import io.github.astrapi69.transform.api.Objectable;
+
 /**
  * If a class implements the interface {@link JsonFileToGenericObject} can transform a json file to
  * an object without giving explicitly the class type of the return type
  */
-public interface JsonFileToGenericObject
+public interface JsonFileToGenericObject<T> extends Objectable<T, File>
 {
-
-	/**
-	 * Transforms the given json {@link File} object to an object of the given class type
-	 *
-	 * @param <T>
-	 *            the generic type of the argument object class type
-	 * @param jsonFile
-	 *            the json file
-	 * @return the object
-	 */
-	<T> T toObject(final File jsonFile);
 }
