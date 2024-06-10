@@ -30,6 +30,7 @@ import java.io.File;
  * The interface {@link ObjectToJsonFile} provides a single method for convert an object to a json
  * string
  */
+@FunctionalInterface
 public interface ObjectToJsonFile
 {
 	/**

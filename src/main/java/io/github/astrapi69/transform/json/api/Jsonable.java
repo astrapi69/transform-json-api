@@ -28,6 +28,7 @@ package io.github.astrapi69.transform.json.api;
  * If a class implements the interface {@link Jsonable} have to implement the method for
  * transformation to a json string
  */
+@FunctionalInterface
 public interface Jsonable
 {
 	/**

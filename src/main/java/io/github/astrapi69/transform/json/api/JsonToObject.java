@@ -33,6 +33,7 @@ import io.github.astrapi69.transform.api.ObjectableFromClass;
  * @param <T>
  *            the generic type of the argument object class type
  */
+@FunctionalInterface
 public interface JsonToObject<T> extends ObjectableFromClass<T, String>
 {
 	/**

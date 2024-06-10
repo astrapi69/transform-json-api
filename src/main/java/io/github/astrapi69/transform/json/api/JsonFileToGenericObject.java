@@ -32,6 +32,7 @@ import io.github.astrapi69.transform.api.Objectable;
  * If a class implements the interface {@link JsonFileToGenericObject} can transform a json file to
  * an object without giving explicitly the class type of the return type
  */
+@FunctionalInterface
 public interface JsonFileToGenericObject<T> extends Objectable<T, File>
 {
 }

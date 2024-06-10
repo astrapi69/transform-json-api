@@ -28,6 +28,7 @@ package io.github.astrapi69.transform.json.api;
  * The interface {@link ObjectToJson} provides a single method for convert an object to a json
  * string
  */
+@FunctionalInterface
 public interface ObjectToJson
 {
 	/**
