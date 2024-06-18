@@ -27,7 +27,11 @@ package io.github.astrapi69.transform.json.api;
 /**
  * If a class implements the interface {@link Objectable} have to implement the method for
  * transformation to the generic object type
+ *
+ * @deprecated use instead the interface {@link io.github.astrapi69.transform.api.Objectable} from
+ *             the transform-api. Note: will be removed in the next major version
  */
+@Deprecated(forRemoval = true)
 public interface Objectable
 {
 	/**

@@ -20,5 +20,7 @@
  */
 module transform.json.api.main
 {
+	requires transform.api.main;
+
 	exports io.github.astrapi69.transform.json.api;
 }
